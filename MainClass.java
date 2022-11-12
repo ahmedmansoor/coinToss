@@ -12,7 +12,7 @@ public class MainClass {
 		Owner owner = new Owner("Mante", "Ahmed");
 
 		// Create a Coin Collection for this Owner. 
-		CoinCollection coinCollection = new CoinCollection(100f, owner);
+		CoinCollection coinCollection = new CoinCollection(50f, owner);
 		
 		// Takes 10 coins of 2RF coin,
 		CoinToss coinTossOne = new CoinToss();
